@@ -1,14 +1,15 @@
 #include<header.h>
 
-int function1();
+int myfunc();
 int main()
 {
   printf("Hello welcome to Git\n");
-  function1();
+  myfunc();
+  printf("After function have finished\n");
 }
 
-int function1()
+int myfunc()
 {
-  printf("In function1\n");
+  printf("In myfunc\n");
   return 0;
 }
